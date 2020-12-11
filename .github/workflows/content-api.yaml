@@ -1,4 +1,4 @@
-name: content-web
+name: content-api
 
 # This workflow is triggered on push to the 'content-web' directory of the  master branch of the repository
 on:
@@ -6,7 +6,7 @@ on:
       branches:
          - master
       paths:
-         - 'content-web/**'
+         - 'content-api/**'
 
    # Configure workflow to also support triggering manually
    workflow_dispatch:
